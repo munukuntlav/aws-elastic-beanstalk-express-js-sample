@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello world Welcome to CLoud Computing'));
+app.get('/', (req, res) => res.send('cpsc 571 Welcome to CLoud Computing'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
